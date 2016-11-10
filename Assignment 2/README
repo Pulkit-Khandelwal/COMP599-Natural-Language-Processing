@@ -1,0 +1,14 @@
+Run the code as
+python decipher.py -laplace -lm <cipher_folder>
+
+For example:
+python decipher.py -laplace cipher1
+
+Ths will use the laplcae smoothing but not the palin text modelling for cipher1 folder.
+decipher.py should be in the same folder as a2data
+
+For plaintext modelling, the data from assignment one is used and is stored in the full_text.txt file.
+Place this file in the same directory as the decipher.py file and a2data folder.
+
+That is my current woring directory should contain:
+decipher.py, full_text.txt and the folder a2data
